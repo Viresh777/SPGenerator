@@ -2,7 +2,7 @@ require('dotenv').config();
 const Jimp = require('jimp');
 const fs = require('fs');
 const pinataSDK = require('@pinata/sdk');
-const pinata = pinataSDK('88c93d1e4ce70395f3f4', '50fb28eb7080041bc6bef24ff843b9d601cdd0b72e5bd6419b37c80450fad440');
+const pinata = pinataSDK('', '');
 const Traits = require('./traits');
 let femaleHairTrait = '';
 let femaleHairJimp = '';
